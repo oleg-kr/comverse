@@ -1,0 +1,184 @@
+body {
+    font-size: 100%;
+    font-family: "Times New Roman", Times, serif;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: white;
+    box-sizing: border-box;
+
+
+}
+
+.wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+
+}
+
+nav {
+    margin: auto;
+    width: 100%;
+
+}
+
+.nav-ul {
+    list-style-type: none;
+    margin-left: 1.5em;
+    padding: 0;
+    display: inline;
+}
+
+.nav-li {
+    display: inline;
+    border-right:1px solid #bbb;
+}
+
+#div1 {
+    display: inline-block;
+    margin-left: 2em;
+}
+
+#div1 > img {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+
+}
+
+.nav-li:nth-child(4) {
+    border-right: none;
+}
+
+
+.nav-li a {
+    color: #0d0d0d;
+    padding: 0.8em;
+    font-size: 0.8em;
+
+}
+
+.nav-li a:hover {
+    color: #808080;
+}
+
+.no-background { 
+     background: none;
+}
+
+select {
+    border: none;
+}
+
+#searchBox {
+   width: 80%;
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+    outline: none;
+    padding: 0;
+    margin-top: 1em;
+    padding-right: 0;
+    margin-right: 0;
+    
+}
+
+img {
+    width: 100%;
+}
+
+nav  a:link {
+    text-decoration: none;
+}
+
+#div1 a {
+    color: #0d0d0d;
+}
+
+#div1 a:hover {
+    text-decoration: underline;
+}
+
+#imgSearch {
+    border: 1px solid #bbb;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.sub {
+    background: white;
+    background-image: url("../images/searchBtn.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: relative;
+    left: -1em;
+    bottom: 0;
+    margin-top: 1em;
+    outline: none;
+    cursor: pointer;
+}
+
+.section1 {
+    box-sizing: border-box;
+    margin-top: 1.5em;
+    background: url("../images/slide-bg-complexity.jpg") no-repeat center fixed;
+    min-height: 639px;
+
+}
+
+.h1s {
+    font-size: 2.5em;
+    color: white;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: normal;
+    padding-top: 3em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+}
+
+.h2s {
+    font-size: 1em;
+    color: white;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: normal;
+    padding-top: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.asside1 {
+    display: inline;
+    width: 100px;
+    height: 639px;
+    padding-right: 5em;
+}
+
+.section2 {
+    box-sizing: border-box;
+    padding-left: 30em;
+}
+
+#btn1 {
+    background: #008CBA url("../images/btnArrow.png") no-repeat center right 1em;
+   
+    border-radius: 12px;
+    color: white;
+    font-size: 1em;
+    border:none;
+    width: 12em;
+    height: 3em;
+    text-align: left;
+    padding-left: 1em;
+    padding: 0.6em 1em;
+    box-shadow: 0 .2em gray;
+}
+
+ #btn1:hover {
+    opacity: 0.8;
+
+}
