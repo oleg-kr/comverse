@@ -1,26 +1,39 @@
 body {
     font-size: 100%;
     font-family: "Times New Roman", Times, serif;
-    width: 100%;
+   
     overflow-x: hidden;
 }
 
 header {
+    text-align: center;
     background-color: white;
     box-sizing: border-box;
+    padding: 0;
+    margin: auto;
+   
+    
+    
 
 
 }
 
 .wrapper {
-    max-width: 940px;
-    margin: 0 auto;
+    max-width: 2500px;
+    margin: auto;
+    padding: 0;
+}
+
+.center {
+   
+    margin: auto;
 
 }
 
 nav {
-    margin: auto;
-    width: 100%;
+   
+    
+    
 
 }
 
@@ -29,6 +42,7 @@ nav {
     margin-left: 1.5em;
     padding: 0;
     display: inline;
+    margin-right: 1.5em;
 }
 
 .nav-li {
@@ -38,7 +52,6 @@ nav {
 
 #div1 {
     display: inline-block;
-    margin-left: 2em;
 }
 
 #div1 > img {
@@ -71,16 +84,40 @@ select {
     border: none;
 }
 
+#form1 {
+    border-radius: 5px;
+    border: 1px solid #d2d2d2;
+    margin-top: 2em;
+
+
+}
 #searchBox {
-   width: 80%;
-   border-top-left-radius: 5px;
-   border-bottom-left-radius: 5px;
+   width: 82%;
+   border: none;
     outline: none;
     padding: 0;
-    margin-top: 1em;
     padding-right: 0;
     margin-right: 0;
+    background: white url(../images/divider.png) right center no-repeat;
+    text-align: left;
+    text-overflow: clip;
     
+}
+
+.sub {
+    background: white url("../images/searchBtn.png") left bottom no-repeat; 
+    cursor: pointer; 
+    border: none;
+    position: relative;  
+    bottom: 0;
+    outline: none;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 5px 5px;
+    margin: 0.2em 0;
+    box-sizing: border-box;
 }
 
 img {
@@ -105,26 +142,16 @@ nav  a:link {
     margin-left: 0;
 }
 
-.sub {
-    background: white;
-    background-image: url("../images/searchBtn.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    position: relative;
-    left: -1em;
-    bottom: 0;
-    margin-top: 1em;
-    outline: none;
-    cursor: pointer;
-}
+
 
 .section1 {
+    padding: 0;
     box-sizing: border-box;
-    margin-top: 1.5em;
-    background: url("../images/slide-bg-complexity.jpg") no-repeat center fixed;
-    min-height: 639px;
+    margin-top: 1em;
+    background: url("../images/slide-bg-complexity.jpg") center top no-repeat fixed;
+   
+    background-size: contain;
+   
 
 }
 
@@ -133,7 +160,8 @@ nav  a:link {
     color: white;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-weight: normal;
-    padding-top: 3em;
+    padding-top: 1em;
+    margin:0;
     padding-bottom: 0;
     margin-bottom: 0;
 
@@ -154,8 +182,9 @@ nav  a:link {
 .asside1 {
     display: inline;
     width: 100px;
-    height: 639px;
+    
     padding-right: 5em;
+    box-sizing: border-box;
 }
 
 .section2 {
@@ -171,7 +200,7 @@ nav  a:link {
     font-size: 1em;
     border:none;
     width: 12em;
-    height: 3em;
+    height: 2.5em;
     text-align: left;
     padding-left: 1em;
     padding: 0.6em 1em;
