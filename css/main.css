@@ -1,21 +1,17 @@
 body {
     font-size: 100%;
     font-family: "Times New Roman", Times, serif;
-   
+   margin: 0;
     overflow-x: hidden;
 }
 
+
+/******************* header *********************/
 header {
-    text-align: center;
     background-color: white;
     box-sizing: border-box;
     padding: 0;
     margin: auto;
-   
-    
-    
-
-
 }
 
 .wrapper {
@@ -25,18 +21,22 @@ header {
 }
 
 .center {
-   
     margin: auto;
+}
 
+.left {
+    text-align: left;
 }
 
 nav {
-   
-    
-    
-
+    width: 58em;
 }
 
+a > img {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
 .nav-ul {
     list-style-type: none;
     margin-left: 1.5em;
@@ -57,6 +57,8 @@ nav {
 #div1 > img {
     margin-left: 0.5em;
     margin-right: 0.5em;
+    margin-top: 10px;
+    top: 5px;
 
 }
 
@@ -87,7 +89,7 @@ select {
 #form1 {
     border-radius: 5px;
     border: 1px solid #d2d2d2;
-    margin-top: 2em;
+    margin-top: 1.8em;
 
 
 }
@@ -126,6 +128,7 @@ img {
 
 nav  a:link {
     text-decoration: none;
+    //width: 57em;
 }
 
 #div1 a {
@@ -143,14 +146,14 @@ nav  a:link {
 }
 
 
-
+/******************** section **********************/
 .section1 {
     padding: 0;
     box-sizing: border-box;
     margin-top: 1em;
     background: url("../images/slide-bg-complexity.jpg") center top no-repeat fixed;
-   
-    background-size: contain;
+    list-style-type: none;
+    background-size: cover;
    
 
 }
@@ -187,15 +190,16 @@ nav  a:link {
     box-sizing: border-box;
 }
 
-.section2 {
+.slide1 {
     box-sizing: border-box;
-    padding-left: 30em;
+    width: 58em;
+    text-align: left;
 }
 
 #btn1 {
     background: #008CBA url("../images/btnArrow.png") no-repeat center right 1em;
    
-    border-radius: 12px;
+    border-radius: 10px;
     color: white;
     font-size: 1em;
     border:none;
@@ -204,10 +208,42 @@ nav  a:link {
     text-align: left;
     padding-left: 1em;
     padding: 0.6em 1em;
-    box-shadow: 0 .2em gray;
+    box-shadow: 0 .1em gray;
 }
 
  #btn1:hover {
     opacity: 0.8;
 
+}
+
+.squareButtons {
+    width: 12em;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+.buttonSq {
+    width: 1em;
+    height: 1em;
+    border-radius: 4px;
+    //background-color: white;
+    border: none;
+    text-decoration: none;
+    //padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+
+.buttonSq:not(.buttonActive) {
+    background-color: white;
+}
+
+.buttonSq:hover:not(.buttonActive) {
+    background-color: #008CBA;
+}
+
+.buttonActive {
+    background-color: #008CBA;
 }
