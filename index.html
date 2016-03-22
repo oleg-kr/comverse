@@ -4,20 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/mobile-main.css">
   <title>Comverse</title>
 </head>
 
 <body>
    
     <header>
-      <nav class="wrapper">
-        <button class="mobile dropbtn">
-          <img class="mobile" src="images/hamburger-icon.png" alt="menu" style="width:22px; height:18px; border:0;" />
-        </button>
+      <nav class="wrapper wrapperN full">
+        
         <a href="#" class="left">
           <img src="images/comverse-logo.png" alt="comverse-logo" style="width:185px; height:62px; border:0;" />
         </a> 
-        <ul class="nav-ul no-background mobile-menu dropdown-content">
+
+
+
+
+        <ul class="nav-ul no-background">
           <li class="nav-li"><a href="">YOUR NEEDS</a></li>
           <li class="nav-li"><a href="">OUR PORTFOLIO</a></li>
           <li class="nav-li"><a href="">NEWS &amp; MEDIA</a></li>
@@ -43,8 +46,45 @@
           </div>
           
       </nav>
+
+
+
+      <nav class="wrapper-mobile mobile">
+        <div class="dropdown">
+          <button class="dropbtn">
+            <img class="mobile" src="images/hamburger-icon.png" alt="menu" style="width:22px; height:18px; border:0;" />
+          </button>
+          <div class="dropdown-content">
+            <a href="#">YOUR NEEDS</a>
+            <a href="#">OUR PORTFOLIO</a>
+            <a href="#">NEWS &amp; MEDIA</a>
+            <a href="#">ABOUT COMVERSE</a>
+          </div>
+        </div>
+        <a href="#" class="center mob-cen">
+          <img src="images/comverse-logo-medium.png" alt="comverse-logo" style="width:109px; height:36px; border:0;" />
+        </a> 
+
+   
+      <!--<label class="searchMobile" id="ck-button">-->
+        <label id="lab" for="in">
+          <img class="mobile right" id="imSearch" src="images/searchBtnMobile.png" alt="search" style="width:21px; height:22px; border:0;" />
+        </label>
+        <input  id="in" type="checkbox" value="1">
+          
+          
+      
+        <form id="form2" method="get" action="">     
+          <input type="search" id="searchBox2" name="search">
+          <input class="sub2" type="submit" name="submit" value="" >
+        </form>    
+
+   <!--</label>-->
+      </nav>
     </header>
-    <ul class="section1">
+
+
+    <ul class="section1 full"> 
       <li class="slide1 wrapper"> 
         <h1 class="h1s"> <span class="bold">Free</span> Your Markets From <br> IT <span class="bold">Complexity</span>
         </h1>
@@ -64,13 +104,340 @@
            <div class="readMore">Read More</div></a>
          <a href="#" class="boxButton boxSizing" id="box3">Comverse: Enabling a<br>World Of Connected<br>Possiblilities.
            <div class="readMore">Read More</div></a>
-        
-       </div>
-
+        </div>
       
+       </li>
+       <li class="slide2">
+          
+         <h1 id="slide2-title"> WHAT CAN WE DO FOR YOU? </h1>
+         <ul class="icons wrapper">
+           <li class="icons-li"> 
+             
+               <div class="slide2-icon icon1">
+                 <div class="icon-box icon1-pic"></div>
+                <div class="slide2-icon-name"> Data monetization </div>
+             
+           </li>
+           <li class="icons-li">
+             
+                <div class="slide2-icon icon2">
+                 <div class="icon-box icon2-pic"></div>
+                <div class="slide2-icon-name"> Machine to machine <br> (M2M) </div>
+            
+           </li>
+           <li class="icons-li"> 
+           
+               <div class="slide2-icon icon3">
+                 <div class="icon-box icon3-pic"></div>
+                <div class="slide2-icon-name"> Over-the-top <br> (OTT) </div>
+           
+           </li>
+           <li class="icons-li">
+            
+                <div class="slide2-icon icon4">
+                 <div class="icon-box icon4-pic"></div>
+                <div class="slide2-icon-name"> Cloud computing </div>
+           
+           </li>
+           <li class="icons-li">
+             
+                <div class="slide2-icon icon5">
+                 <div class="icon-box icon5-pic"></div>
+                <div class="slide2-icon-name"> Managed services </div>
+             
+           </li>
+           <li class="icons-li icons-li-last"> 
+             
+               <div class="slide2-icon icon6">
+                 <div class="icon-box icon6-pic"></div>
+                <div class="slide2-icon-name"> Social media </div>
+        
+           </li>
+         </ul>
+
+           <a id="a1-slide2" href="#"> <button id="slide2-btn1">See all of our solutions</button> </a>
+       </li>
+       <li class="slide3">
+         <div class="slide3-div wrapper">
+           <h1 id="slide3-title"> WHAT'S HAPPENING AT COMVERSE? </h1>
+         </div>
+         <div class="slide3-boxes wrapper">
+           <div class="sl3-box" id="sl3-box1">
+             <h2 class="sl3-box-title">NEWS</h2>
+             <a href="#" class="sl3-boxButton boxSizing">
+               <div class="boxDate"> 
+                 <div class="boxDay">23</div>
+                 <div class="boxMonth">MARCH</div>
+               </div>
+               <div class="boxText">Comverse Reagains Lead In Converging Charging Market Reagains Lead In</div>
+             </a> 
+             <a href="" class="sl3-button-icon">
+             	<div class="sl3-button-i1">All News</div>
+             </a>
+           </div>
+        
+           <div class="sl3-box" id="sl3-box2">
+             <h2 class="sl3-box-title">EVENTS</h2>
+             <a href="#" class="sl3-boxButton boxSizing">
+               <div class="boxDate"> 
+                 <div class="boxDay">23</div>
+                 <div class="boxMonth">MARCH</div>
+               </div>
+             <div class="boxText">Comverse Reagains Lead In Converging Charging Market Reagains Lead In</div>
+             </a> 
+             <a href="" class="sl3-button-icon">
+             	<div class="sl3-button-i2">All Events</div>
+             </a>
+           </div>
+
+           <div class="sl3-box" id="sl3-box3">
+             <h2 class="sl3-box-title">PRESS RELEASES</h2>
+             <a href="#" class="sl3-boxButton boxSizing">
+               <div class="boxDate"> 
+                 <div class="boxDay">23</div>
+                 <div class="boxMonth">MARCH</div>
+               </div>
+               <div class="boxText">Comverse Reagains Lead In Converging Charging Market Reagains Lead In</div>
+             </a> 
+             <a href="" class="sl3-button-icon">
+             	<div class="sl3-button-i3">All Press Realeases</div>
+             </a>
+           </div>
+
+       </li>
+       <li class="slide4">
+         <div class="slide4-div wrapper">
+           <h1 id="slide4-title"> SUCCESS STORIES </h1>
+         </div>
+         <section id="success-stories" class="wrapper">
+           <div class="sl4-big-box">
+           <a href="#" class="sl4-box-a">
+             <div class="sl4-box1-up"> <img class="sl4-box-image" src="images/person2.png" alt="person2" style="width:99px; height:111px; border:0;" />
+
+             
+               <p class="sl4-box-text-q">We have very good and very warm relations with Comverse. We always achievet..."</p>
+             </div>
+             <div class="sl4-box1-down">
+               <div class="sl4-box1-t1">
+             	<span class="name">SERGEY KOROTICH<br></span>
+             	<span class="address">Deputy CTO, 3 Mob Ukraine</span>
+               </div>
+               <img class="sl4-box1-im1" src="images/3mob.png" alt="3mob" style="width:90px; height:32px; border:0;" />
+             </div>
+             </a>
+             <div class="sl4-box-icons">
+               <a href="#" class="sl4-box-a-small">
+                 <div class="tran"></div>
+                 <div class="cont">
+                   <img class="sl4-box-image-s" src="images/mtc.png" alt="mtc" width="86" height="31" />
+                 </div>
+
+                 </a>
+               <a href="#" class="sl4-box-a-small">
+               <div class="tran tran-m"></div>
+                 <div class="cont">
+                   <img class="sl4-box-image-s" src="images/cable-wireless1.png" alt="cable-wireless" width="102" height="78" />
+                 </div>  
+               </a>
+               <a href="#" class="sl4-box-a-small no-margin">
+               <div class="tran"></div>
+                 <div class="cont">
+                   <img class="sl4-box-image-s" src="images/trilogy.png" alt="trilogy" />
+                 </div>
+               </a>
+             </div>
+           </div>
+           
+
+           <div class="sl4-big-box">
+             
+
+               <div class="sl4-box-icons">
+               <a href="#" class="sl4-box-a-small">
+                 <div class="tran"></div>
+                 <div class="cont">
+                   <img class="sl4-box-image-s" src="images/cycle30.png" alt="mtc" width="89" height="44" />
+                 </div>
+
+                 </a>
+               <a href="#" class="sl4-box-a-small auto-center">
+               <div class="tran tran-m"></div>
+                 <div class="cont">
+                   <img class="sl4-box-image-s" src="images/bull.png" alt="cable-wireless" width="83" height="37" />
+                 </div>  
+               </a>
+               <a href="#" class="sl4-box-a-small no-margin">
+               <div class="tran"></div>
+                 <div class="cont">
+                   <img class="sl4-box-image-s" src="images/gemplus1.png" alt="trilogy" />
+                 </div>
+               </a>
+             </div>
+             <a href="#" class="sl4-box-a">
+               <div class="sl4-box1-up"> <img class="sl4-box-image" src="images/person1.png" alt="person1" style="width:99px; height:111px; border:0;" />
+
+             
+               <p class="sl4-box-text">Comverse has demonstrated that they are partners, not just suppliers, because they understand our needs, our situations; together we are...</p>
+               </div>
+               <div class="sl4-box1-down">
+                 <div class="sl4-box1-t1">
+             	  <span class="name">ADALE KEHASSAN<br></span>
+             	  <span class="address">CIO of multi links</span>
+                 </div>
+                <img class="sl4-box1-im1" src="images/multilinks.png" alt="3mob" style="width:94px; height:40px; border:0;" />
+             </div>
+             </a>
+             
+           </div>
+
+
+           <div class="sl4-medium-box">
+           <a href="#" class="sl4-box-a">
+             <div class="sl4-box3-up">
+
+             
+               <p class="sl4-box-text-medium-q">Comverse has been able to fully deliver what we want and we have peers...</p>
+             </div>
+             <div class="sl4-box3-down">
+               <div class="sl4-box3-t1">
+             	<span class="name">RAVISHANKER<br></span>
+             	<span class="address">Tata sky CIO N.</span>
+               </div>
+               <img class="sl4-box3-im1" src="images/tatasky.png" alt="tatasky" style="width:76px; height:33px; border:0;" />
+             </div>
+             </a>
+             <div class="sl4-box-icons-medium">
+               <a href="#" class="sl4-box-a-small margin-s">
+                 <div class="tran"></div>
+                 <div class="cont">
+                   <img class="sl4-box-image-s" src="images/atos.png" alt="atos" width="86" height="29" />
+                 </div>
+
+                 </a>
+               <a href="#" class="sl4-box-a-small no-margin">
+               <div class="tran tran-m"></div>
+                 <div class="cont">
+                   <img class="sl4-box-image-s" src="images/hp1.png" alt="cable-wireless" width="94" height="63" />
+                 </div>  
+               </a>
+               
+             </div>
+           </div>
+           <a id="a1-slide2" href="#"> <button id="slide2-btn1">All 256 Success Stories</button> </a>
+         	
+         </section>
 
 
        </li>
+       <li class="slide5">
+       <footer class="foot wrapper">
+         <div class="col1">
+           <h2 class="sl5-title">KEY SOLUTIONS</h2>
+           <ul class="sl5-ul">
+  			 <li class="sl5-li"><a href="#">Monetizing Data</a></li>
+			 <li class="sl5-li"><a href="#">Over the Top (OTT)</a></li>
+			 <li class="sl5-li"><a href="#">Machine to Machine (M2M)</a></li>
+			 <li class="sl5-li"><a href="#">Cloud Computing</a></li>
+			 <li class="sl5-li"><a href="#">Managed Services</a></li>
+			 <li class="sl5-li"><a href="#">Customer Experience Management</a></li>
+			 <li class="sl5-li"><a href="#">Rich Communication Suite (RCS)</a></li>
+			 <li class="sl5-li"><a href="#">Social Media</a></li>
+			 <li class="sl5-li"><a href="#">4G/LTE</a></li>
+		   </ul>
+
+         </div>
+         <div class="col1">
+           <h2 class="sl5-title">PRODUCTS &AMP; SERVICES</h2>
+           <ul class="sl5-ul">
+  			 <li class="sl5-li"><a href="#">Billing</a></li>
+			 <li class="sl5-li"><a href="#">VAS</a></li>
+			 <li class="sl5-li"><a href="#">Mobile</a></li>
+			 <li class="sl5-li"><a href="#">Global Services</a></li>
+			 <li class="sl5-li"><a href="#">Training Services</a></li>
+		   </ul>
+         </div>
+         <div class="col1">
+           <h2 class="sl5-title">COMPANY</h2>
+           <ul class="sl5-ul">
+  			 <li class="sl5-li"><a href="#">Executive profiles</a></li>
+			 <li class="sl5-li"><a href="#">Clients</a></li>
+			 <li class="sl5-li"><a href="#">Investors</a></li>
+			 <li class="sl5-li"><a href="#">Partners</a></li>
+			 <li class="sl5-li"><a href="#">Corporate responsibility</a></li>
+			 <li class="sl5-li"><a href="#">Industry involvement</a></li>
+			 <li class="sl5-li"><a href="#">Careers</a></li>
+		   </ul>
+         </div>
+         <div class="col4">
+           <h1 class="col4-title">LATEST BLOG POSTS</h1>
+           <div class="col4-up-box">
+             <div class="col4-date">
+               <div class="col4-day">23</div>
+               <div class="col4-month">MARCH</div>
+             </div>
+             <p class="col4-text">Comverse Regains Lead In Convergent Charging Market</p>
+
+           </div>
+           <div class="col4-down-box">
+             <h1 class="col4-title">SUBSCRIBE TO COMVERSE</h1>
+             <form class="col4-subscribe">
+			   <input type="email" placeholder="email address" class="col4-email" />
+			   <button class="col4-submit">SIGN UP</button>
+		     </form>
+           </div>
+           <div class="col4-contact">
+             <a href="#" class="col4-a col4-a-left">
+               <img class="col4-im1" src="images/socialMenuIcon-linkedin.png" alt="linkedin" style="width:22px; height:22px; border:0;" />
+             </a> 
+             <a href="#" class="col4-a">
+               <img class="col4-im2" src="images/socialMenuIcon-twitter.png" alt="twitter" style="width:22px; height:22px; border:0;" />
+             </a> 
+             <a href="#" class="col4-a">
+               <img class="col4-im3" src="images/socialMenuIcon-youtube.png" alt="youtube" style="width:22px; height:22px; border:0;" />
+             </a> 
+           </div>
+
+         </div>
+
+
+       </footer>
+
+
+       </li>
+
+
+
+
+    </ul>
+
+    <ul class="wrapper-mobile section1-mob mobile"> 
+      <li class="slide1-mob"> 
+        <div id="blue-back">
+          <h1 class="h1s-mob max-mob"> <span class="bold">Free</span> Your Markets From  IT <span class="bold">Complexity</span>
+          </h1>
+          <h2 class="h2s-mob"> Comverse Policy Studio 1st Ever Marketing-Oriented Policy Tool
+          </h2>
+        </div>
+        <div id="wheel-back">
+          <a id="a1-mob" href=""> <button id="btn1-mob">LEARN MORE</button> </a>
+            <div class="squareButtons-mob">
+              <a href="#" class="buttonSq-mob buttonActive"> 1 </a>
+              <a href="#" class="buttonSq-mob"> 2 </a>
+              <a href="#" class="buttonSq-mob"> 3 </a>
+              <a href="#" class="buttonSq-mob"> 4 </a>
+            </div>
+          
+        </div>
+      </li>
+      <div class="boxes full">
+            <a href="#" class="boxButton boxSizing" id="box1">Comverse Is Value-Added<br>Service Global Market<br>Leader.
+              <div class="readMore">Read More</div></a>
+            <a href="#" class="boxButton center boxSizing" id="box2">Managed Services World<br>Congress September<br>18-19 Berlin, Germany.
+               <div class="readMore">Read More</div></a>
+             <a href="#" class="boxButton boxSizing" id="box3">Comverse: Enabling a<br>World Of Connected<br>Possiblilities.
+               <div class="readMore">Read More</div></a>
+          </div>
+
     </ul>
   
 
