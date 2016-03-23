@@ -531,8 +531,9 @@ height: 90% !important;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 1000%;
     //background-color: #f1f1f1;
+    position: relative;
 }
 
 .foot-li a {
@@ -542,12 +543,14 @@ height: 90% !important;
     text-decoration: none;
     text-align: left;
     font-size: 1.5em;
+
 }
 
 .special {
-    //width: 300px;
+    //width: 500px;
     //display: inline-block;
-    float: left;
+    //float: left;
+    
 }
 
 .foot-li a:hover {
@@ -556,10 +559,20 @@ height: 90% !important;
 }
 
 .col4-contact {
-    display: inline-block;
-    margin: 0;
+    display: block;
+    //margin: 0;
     padding-top: 0;
-    float: left;
+   // float: left;
+    position: absolute;
+    margin-right: 50px;
+    margin-left: 400px;
+    margin-top: -75px;
 }
 
+#lang {
+    position: relative;
+    margin-top: -30px;
+    margin-left: 120px;
+
+}
 }
