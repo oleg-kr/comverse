@@ -701,11 +701,11 @@ nav  a:link {
 }
 
 .sl4-big-box {
-    width: 342px;
+    width: 337px;
     //padding: 10px;
     display: inline-block;
     box-sizing: border-box;
-    margin-right: 14px;
+    margin-right: 10px;
     float: left;
 }
 
@@ -715,7 +715,7 @@ nav  a:link {
     display: inline-block;
     box-sizing: border-box;
     //margin-right: 10px;
-    float: right;
+    float: left;
 }
 
 .sl4-box-a {
@@ -732,10 +732,10 @@ nav  a:link {
     background: white;
     display: inline-block;
     padding: 10px;
-    width: 110px;
-    height: 110px;
+    width: 105px;
+    height: 105px;
     float: left;
-    margin-right: 10px;
+    margin-right: 9px;
     text-align: center;
     vertical-align: middle;
     box-sizing: border-box;
@@ -772,7 +772,7 @@ nav  a:link {
 }
 
 .sl4-box-a-small:hover .tran-m {
-    left: 10px;
+    left: 5px;
 }
 
 .auto-center {
@@ -790,7 +790,7 @@ nav  a:link {
 
 .sl4-box1-up {
     padding: 0;
-    width: 330px;
+    width: 317px;
     float: left;
     padding-bottom: 10px;
     color: black;
@@ -811,9 +811,9 @@ nav  a:link {
 .sl4-box-text-q {
     background:  url("../images/quote-grey.png") no-repeat left top;
     display: inline-block;
-    width: 225px;
+    width: 212px;
     text-align: left;
-    font-size: 1.25em;
+    font-size: 1.2em;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     margin: 0;
     text-indent: 30px;
@@ -837,7 +837,7 @@ nav  a:link {
 .sl4-box-text {
     
     display: inline-block;
-    width: 225px;
+    width: 212px;
     text-align: left;
     font-size: 1em;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -887,7 +887,7 @@ nav  a:link {
     text-align: left;
     //background:  url("../images/3mob.jpg") no-repeat right 35%;
     line-height: 20px;
-    width: 330px;
+    width: 317px;
     //height: 190px;
     display: inline-block;
 }
@@ -952,7 +952,7 @@ nav  a:link {
 
 .sl4-box-icons {
     display: inline-block;
-    width: 350px;
+    width: 333px;
     position: relative;
     margin-bottom: 5px;
 
@@ -1326,14 +1326,109 @@ nav {
     margin-right: 0;
 }
 
-
-
-
-
-
-
-
-
+.sl4-box-icons {
+    display: inline-block;
+    width: 230px;
+    position: relative;
+    margin-bottom: 5px;
 
 }
 
+.sl4-box-a-small {
+    
+    padding: 10px;
+    width: 70px;
+    height: 70px; 
+    margin-right: 10px;
+}
+
+.cont { 
+    height: 50px;
+}
+
+.sl4-big-box {
+    width: 230px;
+    margin-right: 14px;
+}
+
+.sl4-box1-up {
+    width: 210px;
+    padding-bottom: 10px;
+}
+
+.sl4-box-text-q {
+    width: 185px;
+    font-size: 1em;
+    margin: 0;
+    text-indent: 30px;
+    padding-left: 6px;
+}
+
+.sl4-box-text {
+    width: 185px;
+    font-size: 0.8em;
+    margin: 0;
+    padding-left: 6px;
+}
+
+.sl4-box1-down {
+    border-top: 2px solid gray;
+    line-height: 20px;
+    width: 210px;
+}
+
+.sl4-box-image {
+    float: none;
+
+}
+
+.no-margin {
+    margin-right: 0;
+}
+
+.name {
+    font-size: 0.7em;
+}
+
+.address {
+    font-size: 0.6em;
+}
+
+.sl4-medium-box {
+    width: 160px;
+    display: inline-block;
+    box-sizing: border-box;
+    float: left;
+}
+
+.sl4-box3-up {
+    padding: 0;
+    width: 160px;
+    padding-bottom: 10px;
+}
+
+.sl4-box-text-medium-q {
+    width: 160px;
+    font-size: 1.1em;
+    margin: 0;
+    text-indent: 30px;
+    padding-left: 6px;
+}
+
+.sl4-box3-down {
+    padding-top: 10px;
+    line-height: 20px;
+    width: 160px;
+}
+
+.sl4-box-icons-medium {
+    width: 160px;
+    margin-bottom: 5px;
+}
+
+#a1-slide2 {
+
+}
+
+
+}

@@ -260,17 +260,153 @@ height: 90% !important;
     max-width: 775px;
 }
 
+.boxButton-mob {
+    width: 100%;
+   // height: 500px;
+    //margin-top: 10px;
+    display: block;
+}
 
+.line-background {
+    width: 100%;
+    height: 10px;
+    background: #f2f2f2;
+}
 
+.slide2-icon-mob {
+    width: 130px;
+    height: 130px;
+}
 
+#box1-mob {
+    background: #ff33cc url("../images/link-icon.png") no-repeat bottom 1em left 0.5em;
+    opacity: 0.85;
+    color: white;
+    text-decoration: none;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 1.2em;
+    padding: 16px 12px;
+    line-height: 26px;
+    margin: 0;
+    letter-spacing: 0px;
+    font-weight: lighter;
+}
 
+#box1-mob:hover {
+    opacity: 1;
+}
 
+#box3-mob {
+    background: #ff751a url("../images/play-icon.png") no-repeat bottom 1em left 0.5em ;
+    opacity: 0.85;
+    color: white;
+    text-decoration: none;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 1.2em;
+    padding: 16px 12px;
+    line-height: 26px;
+    margin: 0;
+}
 
+#box3-mob:hover {
+    opacity: 1;
+}
 
+#box2-mob {
+    background: #33cc33 url("../images/file-icon.png") no-repeat bottom 1em left 0.5em ;
+    opacity: 0.85;
+    color: white;
+    text-decoration: none;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 1.2em;
+    padding: 16px 12px;
+    line-height: 26px;
+}
 
+#box2-mob:hover {
+    opacity: 1;
+}
 
+.slide3-mob {
+    width:100%;
+    height: 100%;
+    background: #4d94ff;
+    text-align: center;
+    margin-top: 10px;
 
+}
 
+#slide3-title-mob {
+    font-size: 2.5em;
+    color: white;
+    padding-top: 1.5em;
+    font-weight: 100;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin-top: 0;
+
+}
+
+.slide3-back {
+     width:100%;
+    height: 100%;
+     background: #3385ff;
+    //background: url("../images/services-bg.png") repeat-y ;
+    text-align: center;
+}
+.icons-mob {
+    width:70%;
+    height: 100%;
+    padding: 0;
+}
+.icons-li-mob {
+    display: inline-block;
+    //float: left;
+    margin-right: 8px;
+}
+
+.sl3-down-mob {
+    width: 100%;
+    height: auto;
+    text-align: center;
+
+}
+
+.height {
+    height: 150px;
+    width: 60%;
+    padding: 0;
+    margin: auto;
+}
+
+.slide4-mob {
+    width:100%;
+    height: 500px;
+    background: url("../images/news-and-events-bg.jpg") no-repeat center fixed;
+    //background-origin: border-box;
+    text-align: center;
+    display: inline-block;
+}
+
+.icon-box-mob {
+    width: 105px;
+    height: 100px;
+    cursor: pointer;
+}
+.icons-li-last {
+    margin-right: 0;
+}
+
+.slide2-icon-name {
+    font-size: 0.3em;
+}
+
+.icon1-pic {
+    background: transparent url("../images/data-monetization.png") no-repeat bottom center;
+}
+
+.icon1-pic:hover {
+    background: transparent url("../images/data-monetization-hover.png") no-repeat bottom center;
+}
 
 
 
