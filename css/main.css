@@ -987,13 +987,13 @@ nav  a:link {
 .col1 {
     display: inline-block;
     float: left;
-    margin-right: 18px;
+    margin-right: 12px;
     text-align: left;
 }
 
 .sl5-title {
     color: #e6e6ff;
-    font-size: 1.3em;
+    font-size: 1.25em;
     font-weight: 200;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
@@ -1276,6 +1276,10 @@ nav {
     height: 150px;
 }
 
+.tran {
+    width:50px;
+}
+
 .icon4 {
     width: 134px;
 }
@@ -1428,6 +1432,65 @@ nav {
 
 #a1-slide2 {
 
+}
+
+.col1 {
+    margin-right: 18px;
+}
+
+.sl5-title {
+    font-size: 1em;
+    font-weight: 200;
+}
+
+.sl5-li a {
+    font-size: 0.7em;
+    line-height: 1.4em;
+}
+
+.col4 {
+    width: 280px;
+    height: 320px;
+}
+
+.col4-title {
+    font-size: 1.1em;
+    font-weight: 200;
+    margin-bottom: 12px;
+}
+
+.col4-up-box {
+    padding: 5px;
+    margin:5px;
+    width: 270px;
+    height: 120px;
+    border-bottom: 2px solid gray;
+}
+
+.col4-day {
+    font-size: 4em;
+}
+
+.col4-month {
+    font-size: 1em;
+}
+
+.col4-text {
+    
+    width: 150px;
+    font-size: 1em;
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 15px;
+    line-height: 1.6em;
+}
+
+.col4-email {
+    padding-left: 10px;
+}
+
+.col4-submit {
+    width: 25%;
 }
 
 

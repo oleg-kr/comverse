@@ -337,7 +337,7 @@ height: 90% !important;
 }
 
 #slide3-title-mob {
-    font-size: 2.5em;
+    font-size: 2em;
     color: white;
     padding-top: 1.5em;
     font-weight: 100;
@@ -380,11 +380,10 @@ height: 90% !important;
 
 .slide4-mob {
     width:100%;
-    height: 500px;
-    background: url("../images/news-and-events-bg.jpg") no-repeat center fixed;
-    //background-origin: border-box;
+    background: url("../images/news-and-events-bg.jpg") no-repeat 40% fixed;
     text-align: center;
     display: inline-block;
+    background-size: cover;
 }
 
 .icon-box-mob {
@@ -408,8 +407,159 @@ height: 90% !important;
     background: transparent url("../images/data-monetization-hover.png") no-repeat bottom center;
 }
 
+#slide4-title-mob {
+    font-size: 2em;
+    font-weight: 100;
+    color: white;
+    margin-top: 0;
+    padding-top: 1em;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+}
+
+#sl3-box1 {   
+    float: none;
+    margin-bottom: 20px;
+}
+
+#sl3-box3 {
+    float: none;
+    margin-bottom: 40px;
+}
+
+#sl3-box2 {
+    margin-bottom: 20px;
+}
+
+.slide5-mob {
+    width:100%;
+    //height: 200px;
+    background: #e6e6ff;
+    
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+#slide4-title {
+    font-size: 2em;
+    font-weight: 100;
+    color: gray;
+    margin-top: 0;
+    padding-top: 1em;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+
+}
+
+.sl4-big-box {
+    width: 337px;
+   float: none;
+   margin: auto;
+   display: block;
+}
+
+.sl4-box-icons {
+    width: 333px;
+}
+
+.sl4-box1-up {
+    width: 317px;
+    float: left;
+   
+}
+
+.sl4-box3-up {
+    width: 210px;
+    float: left;
+}
+
+.sl4-box-text {
+    width: 212px;
+    float: right;
+}
+
+
+.sl4-box-image {
+    display: inline-block;  
+    float: left;    
+}
+
+.sl4-box1-down {
+    width: 317px;
+    display: inline-block;
+}
+
+.sl4-box3-down {
+    width: 210px;
+    display: inline-block;
+}
+
+.sl4-box1-t1 {
+    //width: 130;
+    vertical-align: top;
+    display: inline-block;
+    float: left;
+    text-align: left;
+
+}
 
 
 
+.sl4-box-a-small {
+    background: white;
+    display: inline-block;
+    padding: 10px;
+    width: 105px;
+    height: 105px;
+    float: left;
+    margin-right: 9px;
+    text-align: center;
+    vertical-align: middle;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+
+}
+
+.no-margin {
+    margin-right: 0;
+}
+
+.tran {
+    width: 90px;
+}
+
+.foot-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    //background-color: #f1f1f1;
+}
+
+.foot-li a {
+    display: block;
+    color: white;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+.special {
+    //width: 300px;
+    //display: inline-block;
+    float: left;
+}
+
+.foot-li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.col4-contact {
+    display: inline-block;
+    margin: 0;
+    padding-top: 0;
+    float: left;
+}
 
 }
